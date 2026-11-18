@@ -245,3 +245,9 @@ main{overflow-x:clip}
 .hero-copy{min-width:0}
 .search{max-width:100%}
 @media(max-width:590px){.hero{grid-template-columns:minmax(0,1fr)}}
+
+.card-image img[src$="/appliance.webp"],
+.popular-card > img[src$="/appliance.webp"],
+.detail-hero > img[src$="/appliance.webp"] {
+  object-position: center 66%;
+}
